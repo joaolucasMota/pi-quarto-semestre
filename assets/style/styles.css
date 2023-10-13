@@ -1,5 +1,6 @@
-@import 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap';
 @import url(./home.css);
+@import url(../../journey/journey.css);
 
 
 /*Cores e Fonte*/
@@ -21,7 +22,7 @@
     --grey600: #808B9A;
     --grey200: #D9DFE6;
 
-    --primaryFont: 'Plus Jakarta';
+    --primaryFont: 'Poppins';
 } 
 
 *:focus {
@@ -33,11 +34,12 @@ a,i{
     text-decoration: none;
 }
 
-body{
+html{
     font-family: var(--primaryFont);
     font-size: 1rem;
     font-weight: 400;
     color: var(--grey800);
+    background-color: var(--backgroundBody);
 }
 
 .container{

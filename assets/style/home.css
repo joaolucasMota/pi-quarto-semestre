@@ -1,4 +1,5 @@
-.home{
+body{
+    height: 100vh;
     background: linear-gradient(180deg, var(--greenMain) 0%, var(--greenSecondary) 100%);
     background-size: cover;
 }
